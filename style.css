@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@300;400;500;600 & display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'Inter', sans-serif;
+}
+nav {
+   width: 100%;
+   height: 4rem;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+div {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   list-style: none;
+}
+div.logo  li {
+   padding: 0.3rem;
+   color:  #3A404E;
+   font-weight: 500;
+   font-size: 1rem;
+}
+div.links {
+   margin-right: 180px ;
+}
+div.links li {
+   padding: 1rem;
+   color:  #3A404E;
+   font-weight: 500;
+   font-size: 18px;
+}
+button {
+   width: 3rem;
+   height: 2rem;
+
+   color: #667085;
+   background: white;
+   border: none;
+   margin-right: 15px;
+}
+#signup {
+   color: white;
+   width: 5rem;
+   border-radius: 8px;
+   border: 1px solid #8E2424;
+   background: #8E2424;
+   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
