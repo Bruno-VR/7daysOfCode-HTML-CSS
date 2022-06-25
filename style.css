@@ -1,59 +1,163 @@
 @import url('https://fonts.googleapis.com/css2? family= Inter:wght@300;400;500;600 & display=swap');
 
+:root {
+   --color-white: #ffffff;
+   --color-text-logo: #3A404E;
+   --color-links-text: #667085;
+   --color-red: #8E2424;
+}
 
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-}
-body{
    font-family: 'Inter', sans-serif;
 }
+
+body {
+   width: 100%;
+   height: 100vh;
+}
+
 nav {
    width: 100%;
-   height: 4rem;
-
+   height: 3.5rem;
    display: flex;
    flex-direction: row;
    justify-content: space-around;
    align-items: center;
 }
-div {
+
+div.links {
+   margin-right: 180px;
    display: flex;
    flex-direction: row;
    justify-content: space-around;
-   list-style: none;
 }
-div.logo  li {
-   padding: 0.3rem;
-   color:  #3A404E;
-   font-weight: 500;
-   font-size: 1rem;
+
+.links a {
+   padding: 10px;
+   color: var(--color-links-text);
+   font-weight: 300;
+   font-size: 17px;
+   text-decoration: none;
 }
-div.links {
-   margin-right: 180px ;
-}
-div.links li {
-   padding: 1rem;
-   color:  #3A404E;
-   font-weight: 500;
-   font-size: 18px;
-}
+
 button {
    width: 3rem;
    height: 2rem;
-
-   color: #667085;
-   background: white;
+   color: var(--color-links-text);
+   background: var(--color-white);
+   cursor: pointer;
+   font-size: 0.8rem;
    border: none;
    margin-right: 15px;
 }
+
 #signup {
-   color: white;
+   color: var(--color-white);
    width: 5rem;
    border-radius: 8px;
-   border: 1px solid #8E2424;
-   background: #8E2424;
+   border: 1px solid var(--color-red);
+   background: var(--color-red);
    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 }
 
+.cabecalho {
+   width: 100%;
+   height: 18rem;
+}
+
+h5 {
+   text-align: center;
+   color: var(--color-red);
+   font-weight: 600;
+   line-height: 24px;
+   margin-top: 70px;
+}
+
+.cabecalho .container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 60px;
+}
+
+h1 {
+   margin-top: 20px;
+}
+
+.content p {
+   width: 38rem;
+   text-align: center;
+   color: var(--color-links-text);
+   font-weight: 500;
+   line-height: 30px;
+   margin: auto;
+}
+
+.metrics {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   column-gap: 3rem;
+   padding: 0 8rem;
+}
+
+.metric {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+
+.metric span.title {
+   color: var(--color-red);
+   font-size: 3rem;
+   font-weight: bold;
+}
+
+.metric span {
+   color: var(--text-color);
+   line-height: 140%;
+   font-size: 90%;
+}
+
+.metric .metric-title {
+   font-weight: 500;
+   color: #101828;
+}
+
+.jobs {
+   width: 100%;
+   height: 34rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+
+div.text {
+   text-align: center;
+   line-height: 50px;
+}
+
+.subtitle {
+   color: var(--color-red);
+   background-color: #8E24240D;
+   margin-top: 130px;
+}
+
+.title-2 {
+   font-size: 34px;
+}
+
+.title-job {
+   color: var(--color-links-text);
+}
+
+.image-job {
+   width: 48rem;
+}
