@@ -162,12 +162,13 @@ div.text {
    width: 48rem;
 }
 
-section.jobs {
+section.vagas-abertas {
    width: 50rem;
    height: 940px;
    margin: auto;
 }
-.area-1 {
+
+.area-principal {
    width: 768px;
    height: 358px;
    display: flex;
@@ -178,11 +179,13 @@ section.jobs {
 
 .tech {
    font-weight: 500;
-   line-height: 60px;
+   line-height: 90px;
    font-size: 1rem;
    color: #101828;
    width: 768px;
+   margin-left: 50px;
 }
+
 .titulo-vaga {
    width: 720px;
    height: 50px;
@@ -190,6 +193,7 @@ section.jobs {
    margin: auto;
    color: #101828;
 }
+
 .informacoes {
    color: var(--color-links-text);
    font-size: 0.9rem;
@@ -198,7 +202,7 @@ section.jobs {
    padding: 20px;
    line-height: 20px;
    margin-bottom: 20px;
-   
+
    width: 720px;
    display: flex;
    flex-direction: column;
@@ -206,6 +210,50 @@ section.jobs {
    border: 1px solid #EAECF0;
    border-radius: 16px;
 }
+
 span.details {
    display: contents;
+}
+
+section.depoimentos {
+   background: #C3191908;
+   width: 100%;
+   height: 404px;
+   margin-top: 190px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+div.titulo-depoimentos,
+.pessoa-depoimento {
+   width: 900px;
+   height: 124px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   line-height: 26px;
+}
+
+#text-depoimentos {
+   color: var(--color-red);
+   font-weight: 600;
+   font-size: 14px;
+}
+
+#title-depoimentos {
+   text-align: center;
+   font-weight: 500;
+   font-size: 28px;
+}
+
+#imagem-depoimentos {
+   margin-bottom: 16px;
+}
+
+#descricao {
+   color: var(--color-links-text);
+   font-weight: 400;
+   font-size: 14px;
 }
