@@ -215,18 +215,18 @@ span.details {
    display: contents;
 }
 
-section.depoimentos {
+section.depoimento {
    background: #C3191908;
-   width: 100%;
-   height: 404px;
-   margin-top: 190px;
+   width: 950px;
+   height: 350px;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   margin: auto;
 }
 
-div.titulo-depoimentos,
+div.titulo-depoimento,
 .pessoa-depoimento {
    width: 900px;
    height: 124px;
@@ -236,24 +236,87 @@ div.titulo-depoimentos,
    line-height: 26px;
 }
 
-#text-depoimentos {
+#text-depoimento {
    color: var(--color-red);
    font-weight: 600;
    font-size: 14px;
 }
 
-#title-depoimentos {
+#title-depoimento {
    text-align: center;
    font-weight: 500;
    font-size: 28px;
 }
 
-#imagem-depoimentos {
+#imagem-depoimento {
    margin-bottom: 16px;
 }
 
-#descricao {
+#cargo {
    color: var(--color-links-text);
    font-weight: 400;
    font-size: 14px;
+}
+
+.form {
+   background-color: #F9FAFB;
+   width: 100%;
+   height: 430px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 80px;
+   line-height: 50px;
+}
+
+#text-form {
+   font-size: 600;
+   font-size: 1.7rem;
+}
+
+#details-form {
+   border: 1px solid white;
+   color: var(--color-links-text);
+   font-weight: 400;
+   font-size: 1rem;
+   margin-bottom: 24px;
+}
+
+input {
+   background: #FFFFFF;
+   border: 1px solid #D0D5DD;
+   border-radius: 8px;
+   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+   outline: none;
+   width: 360px;
+   height: 48px;
+   padding: 15px;
+}
+
+input::placeholder {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 0.8rem;
+   padding-left: 3px;
+   width: 330px;
+   height: 24px;
+}
+
+#send-email {
+   color: var(--color-white);
+   border-radius: 8px;
+   border: 1px solid var(--color-red);
+   background: var(--color-red);
+   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+   width: 5rem;
+   height: 48px;
+}
+
+#copyright {
+   border: 1px solid white;
+   color: var(--color-links-text);
+   font-weight: 400;
+   font-size: 0.8rem;
+   margin-top: 20px;
 }
